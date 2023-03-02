@@ -4,12 +4,37 @@ body {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
 .header {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .title {
     display: flex;
+    padding: 100px;
+    gap: 30px;
+}
+
+.title-text {
+    height: 300px;
+    width: 600px;
+}
+
+.top-image {
+    height: 300px;
+    width: 600px;
+    border: 2px solid red;
 }
 
 .item-container {
